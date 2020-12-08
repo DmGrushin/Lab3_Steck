@@ -6,8 +6,9 @@ before_script:
   - mkdir ../build
   - cd ../build
 script:
-  - cmake ../3818
+  - cmake ../Lab3_Steck
   - make -j
-  - ./vector/vector
+  - ls
+  - ./test/test_steck
 notifications:
   email: false
