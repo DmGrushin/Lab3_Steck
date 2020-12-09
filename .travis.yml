@@ -9,6 +9,6 @@ script:
   - cmake ../Lab3_Steck
   - make -j
   - ls
-  - ./test/test_steck
+  - ./test/test_TSteck
 notifications:
   email: false
